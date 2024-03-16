@@ -1,0 +1,10 @@
+//syntax:splice(index to be operated on,index of ele. to remove,index of ele. to add(optional))
+//splice s used to remove or add elements in array
+//note:if element is only to be added then specify 0 in second arg.
+
+let arr=[2,3,8,10,1];
+arr.splice(3,1);
+console.log(arr);
+
+arr.splice(0,1,51);
+console.log(arr)

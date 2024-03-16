@@ -1,0 +1,15 @@
+let arr=[2,3,8,10,1];
+let a=[];
+arr.map((val)=>{
+    if(val%2==0)
+    {
+        //console.log(val);
+        
+        a.push(val);
+        
+         return a;
+         
+    }
+   
+});
+ console.log(a)

@@ -1,0 +1,14 @@
+let arr=[2,3,8,10,1];
+let a=[];
+let b;
+arr.map((val)=>{
+    
+        b=val*2;
+        a.push(b);
+        
+         return a;
+         
+    
+   
+});
+ console.log(a)

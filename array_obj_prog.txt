@@ -1,0 +1,38 @@
+// let obj={name:'disha',sem:'8'};
+// console.log(obj);
+// console.log(obj["name"]);
+// console.log(obj.sem);
+// let obj={name:'disha',sem:'8'};
+// console.log(obj);
+// console.log(obj["name"]);
+// console.log(obj.sem);
+
+// let obj1=[{name:'kriyanshi',sem:'8'},{name:'krishna',sem:'8'}];
+// console.log(obj1);
+// console.log(obj1[0].name);
+
+
+
+
+let obj1=[{name:'kriyanshi',age:'80'},{name:'krishna',age:'19'},{name:'disha',age:'10'},{name:'kosha',age:'8'}];
+// function f(){
+// for(i=0;i<obj1.length;i++){
+//     if(obj1[i].age>18)
+//     {
+//         console.log(obj1[i].age,obj1[i].name)
+//     }
+// }
+// }
+//  f();
+ 
+ function g(){
+let t=obj1.filter((val,i)=>val.age>18)
+     console.log(t)
+ }
+g()
+
+// function h(){
+// let t=obj1.map((val,i)=>val.age>18)
+//      console.log(t)
+//  }
+// h()

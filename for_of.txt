@@ -1,0 +1,9 @@
+let arr=[3,5,4,2,1];
+var r=0;
+for(var i of arr)
+{
+   
+      var r=r+i;
+   
+}
+console.log(r);

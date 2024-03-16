@@ -1,0 +1,10 @@
+let obj={name:"abc",age:"21"}
+let obj1={name:"abc",age:"21"}
+let arr=[]
+let obj3={}
+obj3["sem"]=8;
+//console.log(obj)
+arr.push(obj)
+arr.push(obj1)
+arr.push(obj3)
+console.log(arr)

@@ -1,0 +1,9 @@
+let obj={name:'disha',sem:'8'};
+console.log(obj);
+console.log(obj["name"]);
+console.log(obj.sem);
+
+let obj1=[{name:'kriyanshi',sem:'8'},{name:'krishna',sem:'8'}];
+console.log(obj1);
+console.log(obj1[0].name);
+

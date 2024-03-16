@@ -1,0 +1,9 @@
+let arr=[3,8,10,12,4];
+arr.map((val)=>{
+    if(val>5){
+    console.log(val);
+    return val;
+        
+    }
+});
+

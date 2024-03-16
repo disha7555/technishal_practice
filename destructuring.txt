@@ -1,0 +1,4 @@
+let bj={name:"disha",age:"21"
+}
+let {name,age}=bj
+console.log(name,age)

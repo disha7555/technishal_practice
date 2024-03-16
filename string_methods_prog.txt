@@ -1,0 +1,16 @@
+function palindrome1(g)
+{
+let o=g.toLowerCase().split("")
+let j=o.reverse();
+console.log(j)
+let k=j.join('');
+console.log(k)
+ if(k===g)
+ {
+     return "palindrome";
+ }
+ else{
+     return "not palindrome";
+ }
+}
+console.log(palindrome1("madam"))

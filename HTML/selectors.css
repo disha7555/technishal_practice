@@ -1,0 +1,12 @@
+#first{
+    color: red;
+    font-size: xx-large;
+    border: 3px dotted blue;
+    margin:4px;
+}
+.second{
+    color: violet;
+    font-size: xx-large;
+    border: 3px dotted yellow;
+    margin:4px;
+}
